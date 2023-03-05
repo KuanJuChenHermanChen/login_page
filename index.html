@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Pag</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-left">
+      <div class="login-header">
+        <h1>Welcome to Our Application</h1>
+        <p>Please login to use the platform</p>
+      </div>
+      <form class="login-form" action="/login" method="GET">
+        <div class="login-form-content">
+          <div class="form-item">
+            <label for="email">Enter Email</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div class="form-item">
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" name="password">
+          </div>
+          <div class="form-item">
+            <div class="checkbox">
+              <input type="checkbox" id="rememberMeCheckbox" checked>
+              <label for="rememberMeCheckbox" class="checkboxLable">Remember Me</label>
+            </div>
+          </div>
+          <button type="submit">Sign In</button>
+        </div>
+        <div class="login-form-footer">
+          <a href="#">
+            <img width="30"
+              src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-1024.png"
+              alt="">Facebook Login
+          </a>
+          <a href="#">
+            <img width="30" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-1024.png" alt="">
+            Google Login
+          </a>
+        </div>
+      </form>
+    </div>
+    <div class="login-right">
+      <img
+        src="https://media.gq.com.tw/photos/5eeaf181a65e0757670b209b/master/w_1600,c_limit/MV5BMTk2OTU3MDA3N15BMl5BanBnXkFtZTgwMTg5NjUyMjI%2540._V1_SX1777_CR0%252C0%252C1777%252C744_AL_.jpg">
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/4f71125c68.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
