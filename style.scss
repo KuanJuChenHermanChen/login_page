@@ -109,10 +109,10 @@ input[type='password'] {
   border-radius: 100px;
 }
 
-checkbox {
+.checkbox {
   display: flex;
-  height: 20px;
-  accent-color: $primary-color;
+  align-items: center;
+  gap: 7px;
 }
 
 

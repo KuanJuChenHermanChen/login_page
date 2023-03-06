@@ -98,10 +98,10 @@ input[type=password] {
   border-radius: 100px;
 }
 
-checkbox {
+.checkbox {
   display: flex;
-  height: 20px;
-  accent-color: #131086;
+  align-items: center;
+  gap: 7px;
 }
 
 input[type=checkbox] {
@@ -146,6 +146,4 @@ button {
   .login-right {
     display: none;
   }
-}
-
-/*# sourceMappingURL=output.css.map */
+}/*# sourceMappingURL=style.css.map */
